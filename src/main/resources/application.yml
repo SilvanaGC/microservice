@@ -7,7 +7,7 @@ eureka:
       defaultZone: ${EUREKA_URL:http://localhost:8761/eureka}
   instance:
     preferIpAddress: true # For local development. Set to false if you want to use the hostname in a DNS-enabled environment
-    hostname: ${HOSTNAME:localhost}
+    hostname: ${HOSTNAME:https://microservice-production-b78e.up.railway.app}
 
 ## Configuration for App name and Spring Data
 spring:
