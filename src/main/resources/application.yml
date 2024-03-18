@@ -12,7 +12,7 @@ eureka:
 ## Configuration for App name and Spring Data
 spring:
   application:
-    name: microservice_login
+    name: microservice
   datasource:
     url: jdbc:postgresql://aws-0-us-west-1.pooler.supabase.com:5432/postgres
     username: postgres.fmwzbosrxtoewrmnnnyw
